@@ -1151,6 +1151,12 @@ table.timetable {
   transform: translateY(-2px);
 }
 
+.inline-link {
+  color: var(--primary-color);
+  text-decoration: underline;
+  transition: var(--transition-fast);
+}
+
 @media (min-width: 1100px){
   .hero-content {
     display: flex;
