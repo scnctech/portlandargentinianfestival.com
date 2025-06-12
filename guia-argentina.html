@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Argentina - Festival Portland 2025</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/guia-argentina.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><div class="logo-placeholder">PORTLAND ARGENTINIAN FESTIVAL</div></a>
+            </div>
+            <ul class="nav-menu">
+                
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about-us.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="festival.html" class="nav-link dropdown-toggle">Festival ▼</a>
+                    <ul class="dropdown-menu">
+                        <!-- <li><a href="festival-about-us.html">About</a></li> -->
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="volunteer.html">Volunteer</a></li>
+                        <li><a href="become-sponsor.html">Become a Sponsor</a></li>
+                        <li><a href="become-vendor.html">Become a Vendor</a></li>
+                        <li><a href="food-cart.html">Bring Food Cart</a></li>
+                        <li><a href="workshops.html">Workshops</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li><a href="past-festivals.html">Past Festivals</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="faqs.html" class="nav-link">FAQs</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="argentinos.html" class="nav-link dropdown-toggle active">Argentin@s en Portland ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="donaciones.html">Donaciones</a></li>
+                        <li><a href="guia-argentina.html">Guía Argentina</a></li>
+                        <li><a href="encuentros.html">Encuentros Mensuales</a></li>
+                        <li><a href="consulado.html">Consulado</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="page-content">
+            <h1>Guía Argentina</h1>
+            <p>Las personas en esta lista son miembros del grupo que viven en los alrededores de Portland, fueron recomendados o nos contactaron por nuestros medios sociales. Argentin@s en Postland Oregon no es responsable por los acuerdos y servicios prestados.</p>
+            <div class="filters-section">
+                <div class="filters-grid">
+                    <div class="search-container">
+                        <input 
+                            type="text" 
+                            id="searchInput" 
+                            class="form-control" 
+                            placeholder="Buscar por nombre o descripción..."
+                        >
+                    </div>
+                    
+                    <div class="filter-container">
+                        <select id="categoryFilter" class="form-control">
+                            <option value="">Todas las categorías</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-container">
+                        <select id="subcategoryFilter" class="form-control">
+                            <option value="">Todas las subcategorías</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-container">
+                        <button id="clearFilters" class="btn btn--secondary btn--full-width">
+                            Limpiar Filtros
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-section">
+                <div id="resultsCount" class="results-count mb-8"></div>
+                <div id="businessGrid" class="business-grid"></div>
+                <div id="noResults" class="no-results hidden">
+                    <h3>No se encontraron negocios</h3>
+                    <p>Intenta ajustar tus filtros de búsqueda</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@festival.com</p>
+                <p>Phone: (503) 555-0123</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Instagram</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <p>&copy; 2025 Festival Portland. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/items-guia.js"></script>
+    <script src="scripts/guia-argentina.js"></script>
+</body>
+</html>
