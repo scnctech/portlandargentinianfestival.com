@@ -123,7 +123,7 @@ function createBusinessCard(business) {
         return `<div class="contact-item">
             <span class="contact-type">${phone.tipo}:</span>
             <span class="contact-value">
-                <a href="tel:${phoneNumber}">${displayNumber}</a>
+                <a href="tel:${phoneNumber}" class="url-item">${displayNumber}</a>
             </span>
         </div>`;
     }).join('') || '';
