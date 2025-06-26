@@ -93,32 +93,32 @@ function filterBusinesses() {
 // Render business cards
 function renderBusinesses(businesses) {
     updateResultsCount(businesses.length);
-    
+
     if (businesses.length === 0) {
         businessGrid.style.display = 'none';
         noResults.classList.remove('hidden');
         return;
     }
-    
+
     businessGrid.style.display = 'grid';
     noResults.classList.add('hidden');
-    
+
     businessGrid.innerHTML = businesses.map(business => createBusinessCard(business)).join('');
 }
 
 // Create HTML for a business card
 function createBusinessCard(business) {
-    const scheduleHTML = business.ubi.horario.map(day => {
+    const scheduleHTML = business.ubi.horario?.map(day => {
         const isCurrentDay = day.dia === currentDay;
         const rowClass = isCurrentDay ? 'schedule-row current-day' : 'schedule-row';
         return `<div class="${rowClass}">
                     <div class="schedule-day">${day.dia}:</div>
                     <div class="schedule-hours">${day.apertura === 'Cerrado' ? 'Cerrado' : `${day.apertura} - ${day.cierre}`}</div>
                 </div>`;
-    }).join('');
-    
-    const phonesHTML = business.contacto.telefonos.map(phone => {
-        const phoneNumber = phone.numero.replace(/[^\d]/g, ''); // Remove non-digits for tel: link
+    }).join('') || '';
+
+    const phonesHTML = business.contacto.telefonos?.map(phone => {
+        const phoneNumber = phone.numero.replace(/[^\\d]/g, ''); // Remove non-digits for tel: link
         const displayNumber = `${phone.numero}${phone.extension ? ' ext. ' + phone.extension : ''}`;
         return `<div class="contact-item">
             <span class="contact-type">${phone.tipo}:</span>
@@ -126,20 +126,20 @@ function createBusinessCard(business) {
                 <a href="tel:${phoneNumber}">${displayNumber}</a>
             </span>
         </div>`;
-    }).join('');
-    
-    const urlsHTML = business.urls.map(url => 
+    }).join('') || '';
+
+    const urlsHTML = business.urls?.map(url => 
         `<a href="${url.url}" target="_blank" class="url-item">
             <div class="url-item-content">
                 <span class="url-description">${url.descripcion}</span>
                 <span class="url-link-text">Visitar</span>
             </div>
         </a>`
-    ).join('');
-    
+    ).join('') || '';
+
     return `
         <div class="business-card">
-            <img src="${business.etc.urlImagen}" alt="${business.general.nombre}" class="business-image" />
+            ${business.etc.urlImagen ? `<img src="${business.etc.urlImagen}" alt="${business.general.nombre}" class="business-image" />` : ''}
             
             <div class="business-content">
                 <div class="business-header">
@@ -154,37 +154,37 @@ function createBusinessCard(business) {
                 </div>
                 
                 <div class="business-details">
-                    <div class="detail-section">
+                    ${business.ubi.direccion ? `<div class="detail-section">
                         <h4 class="detail-title">Dirección</h4>
                         <div class="detail-content">${business.ubi.direccion}</div>
-                    </div>
+                    </div>` : ''}
                     
-                    <div class="detail-section">
+                    ${scheduleHTML ? `<div class="detail-section">
                         <h4 class="detail-title">Horarios</h4>
                         <div class="schedule-list">
                             ${scheduleHTML}
                         </div>
-                    </div>
+                    </div>` : ''}
                     
-                    <div class="detail-section">
+                    ${(phonesHTML || business.contacto.email) ? `<div class="detail-section">
                         <h4 class="detail-title">Contacto</h4>
                         <div class="contact-list">
                             ${phonesHTML}
-                            <div class="contact-item">
+                            ${business.contacto.email ? `<div class="contact-item">
                                 <span class="contact-type">Email:</span>
                                 <span class="contact-value">
                                     <a href="mailto:${business.contacto.email}">${business.contacto.email}</a>
                                 </span>
-                            </div>
+                            </div>` : ''}
                         </div>
-                    </div>
+                    </div>` : ''}
                     
-                    <div class="detail-section">
+                    ${urlsHTML ? `<div class="detail-section">
                         <h4 class="detail-title">Enlaces</h4>
                         <div class="urls-list">
                             ${urlsHTML}
                         </div>
-                    </div>
+                    </div>` : ''}
                 </div>
             </div>
         </div>
