@@ -149,7 +149,7 @@ function createBusinessCard(business) {
                     
                     <div class="business-categories">
                         <span class="category-badge">${business.organizacionEnGuia.categoria}</span>
-                        <span class="subcategory-badge">${business.organizacionEnGuia.subcategoria}</span>
+                        ${business.organizacionEnGuia.subcategoria ? `<span class="subcategory-badge">${business.organizacionEnGuia.subcategoria}</span>` : ''}
                     </div>
                 </div>
                 
