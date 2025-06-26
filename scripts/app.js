@@ -1,7 +1,7 @@
 // JavaScript Variables for easy customization
 const CONFIG = {
   // Countdown target date
-  countdownTarget: new Date('2025-07-15T14:00:00').getTime(),
+  countdownTarget: new Date('2025-10-18T12:00:00').getTime(),
   
   // Carousel settings
   carouselSpeed: 20000, // milliseconds for one complete cycle
