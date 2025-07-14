@@ -34,7 +34,7 @@ const businessData = {
       },
       "organizacionEnGuia": {
         "categoria": "Negocios",
-        "subcategoria": ""
+        "subcategoria": "Negocios"
       },
       "ubi": {
         "direccion": "",
@@ -138,7 +138,7 @@ const businessData = {
         "subcategoria": "Tienda de productos argentinos"
       },
       "ubi": {
-        "direccion": "9515 SE 82nd Ave, Happy Valley OR 97086 (Tambien aparece como Portland en Google)",
+        "direccion": "9515 SE 82nd Ave, Happy Valley, OR 97086",
         "horario": []
       },
       "etc": {
@@ -187,7 +187,7 @@ const businessData = {
       },
       "organizacionEnGuia": {
         "categoria": "Negocios",
-        "subcategoria": ""
+        "subcategoria": "Negocios"
       },
       "ubi": {
         "direccion": "3503 E 4th Blvd, Vancouver WA",
@@ -213,7 +213,7 @@ const businessData = {
       },
       "organizacionEnGuia": {
         "categoria": "Negocios",
-        "subcategoria": ""
+        "subcategoria": "Negocios"
       },
       "ubi": {
         "direccion": "9845 SW Barbur Blvd, Portland OR 97219",
@@ -239,7 +239,7 @@ const businessData = {
       },
       "organizacionEnGuia": {
         "categoria": "Negocios",
-        "subcategoria": ""
+        "subcategoria": "Negocios"
       },
       "ubi": {
         "direccion": "",
@@ -259,7 +259,7 @@ const businessData = {
       "general": {
         "nombre": "FACTURAS (por encargue)",
         "titulo": "",
-        "descripcion": "Portland Contactar a Lari por WhatsApp +54 9 3813 01 6272, Seattle: https://www.facebook.com/SeaTangoArg/"
+        "descripcion": "Portland Contactar a Lari por WhatsApp"
       },
       "organizacionEnGuia": {
         "categoria": "Productos",
@@ -359,7 +359,7 @@ const businessData = {
       "general": {
         "nombre": "MR TANGO SAUSAGES",
         "titulo": "",
-        "descripcion": "Online: https://www.mrtangosausages.com/product-category/blood-sausages/"
+        "descripcion": "Online"
       },
       "organizacionEnGuia": {
         "categoria": "Online",
@@ -403,6 +403,380 @@ const businessData = {
         "email": ""
       },
       "urls": []
-    }
+    },
+    // Páginas amarillas
+    {
+      "general": {
+        "nombre": "Juan Constantini",
+        "titulo": "Chief Legal Officer",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Abogados",
+        "subcategoria": "Inmigración"
+      },
+      "ubi": {
+        "direccion": "Portland, Oregon, United States",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [],
+        "email": ""
+      },
+      "urls": []
+    },
+    {
+      "general": {
+        "nombre": "Barbara Ghio",
+        "titulo": "Attorney",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Abogados",
+        "subcategoria": "Inmigración"
+      },
+      "ubi": {
+        "direccion": "3000 Market St NE #252",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+          {"tipo": "Principal", "numero": "503-588-1014", "extension": ""}
+        ],
+        "email": ""
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://www.mglegal.us/"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Uniendo Familias",
+        "titulo": "Inmigración - Ayuda Legal",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Abogados",
+        "subcategoria": "Inmigración"
+      },
+      "ubi": {
+        "direccion": "512 N 1st Street, Silverton, OR 97381",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+        ],
+        "email": ""
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://www.somoshispanasunidas.org/"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Alejandra G. Klein",
+        "titulo": "Attorney",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Abogados",
+        "subcategoria": "Inmigración"
+      },
+      "ubi": {
+        "direccion": "10300 SW Greenburg Rd #490, Portland, OR, 97223",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+          {"tipo": "Principal", "numero": "503-305-3425", "extension": ""}
+
+        ],
+        "email": "alejandra@arellanolegal.com"
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://www.arellanolegal.com/"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Monica Simmons",
+        "titulo": "",
+        "descripcion": "Civil - Legal - Citizenship - Family Law"
+      },
+      "organizacionEnGuia": {
+        "categoria": "Abogados",
+        "subcategoria": "Inmigración"
+      },
+      "ubi": {
+        "direccion": "",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+
+        ],
+        "email": ""
+      },
+      "urls": [
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Gloria Scharetg",
+        "titulo": "Visual Artist",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Arte",
+        "subcategoria": "Arte"
+      },
+      "ubi": {
+        "direccion": "",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+
+        ],
+        "email": ""
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://gloriascharetg.artsites.ca/"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Andrea Boyd",
+        "titulo": "Visual Artist",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Arte",
+        "subcategoria": "Arte"
+      },
+      "ubi": {
+        "direccion": "",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+
+        ],
+        "email": ""
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://facebook.com/andreaboydart/"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Eugenia Fama-Higgins",
+        "titulo": "Arquitecta",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Arquitectura",
+        "subcategoria": "Arquitectura"
+      },
+      "ubi": {
+        "direccion": "",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+
+        ],
+        "email": ""
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://archinect.com/eugeniafamahiggins"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Andrea Boyd",
+        "titulo": "Arquitecta",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Arquitectura",
+        "subcategoria": "Arquitectura"
+      },
+      "ubi": {
+        "direccion": "",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+
+        ],
+        "email": ""
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://arqandrearng.wixsite.com/mysite/about"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Beatriz Dujovne",
+        "titulo": "Autora",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Autores",
+        "subcategoria": "Autores"
+      },
+      "ubi": {
+        "direccion": "",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+
+        ],
+        "email": ""
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://www.amazon.com/Dont-Be-Sad-When-Gone/dp/1476684286"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Aldana Rey",
+        "titulo": "Clases de canto",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Clases de canto",
+        "subcategoria": "Clases de canto"
+      },
+      "ubi": {
+        "direccion": "",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+
+        ],
+        "email": "aldanamrmusica@gmail.com"
+      },
+      "urls": [
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Fabian Perez",
+        "titulo": "Construcción",
+        "descripcion": "Remodelación de escaleras en el hogar"
+      },
+      "organizacionEnGuia": {
+        "categoria": "Construcción",
+        "subcategoria": "Construcción"
+      },
+      "ubi": {
+        "direccion": "",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+
+        ],
+        "email": ""
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://www.facebook.com/fabianperez1970"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Charlie Higgins",
+        "titulo": "Construcción",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Construcción",
+        "subcategoria": "Construcción"
+      },
+      "ubi": {
+        "direccion": "NE Portland",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+
+        ],
+        "email": "globodb@gmail.com"
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://www.facebook.com/fabianperez1970"}
+      ]
+    },
+    {
+      "general": {
+        "nombre": "Agus Nails",
+        "titulo": "",
+        "descripcion": ""
+      },
+      "organizacionEnGuia": {
+        "categoria": "Cosmética",
+        "subcategoria": "Cosmética"
+      },
+      "ubi": {
+        "direccion": "1425 NE 7th Ave, Portland, OR",
+        "horario": []
+      },
+      "etc": {
+        "urlImagen": ""
+      },
+      "contacto": {
+        "telefonos": [
+          {"tipo": "Principal", "numero": "971-500-6121", "extension": ""}
+
+        ],
+        "email": ""
+      },
+      "urls": [
+        {"descripcion": "Sitio Web", "url": "https://www.instagram.com/agusnai1s"}
+      ]
+    },
   ]
 };
