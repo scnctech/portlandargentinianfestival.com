@@ -778,5 +778,591 @@ const businessData = {
         {"descripcion": "Sitio Web", "url": "https://www.instagram.com/agusnai1s"}
       ]
     },
+      {
+    "general": {
+      "nombre": "Aldana Rey",
+      "titulo": "Clases de canto",
+      "descripcion": "Relajación y vocalización. Repertorio e interpretación."
+    },
+    "organizacionEnGuia": {
+      "categoria": "Clases",
+      "subcategoria": "Canto"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [],
+      "email": "aldanamrmusica@gmail.com"
+    },
+    "urls": [
+      {
+        "descripcion": "Instagram",
+        "url": "https://www.instagram.com/aldimrey"
+      }
+    ]
+  },
+  {
+    "general": {
+      "nombre": "Fabian Perez",
+      "titulo": "Construcción",
+      "descripcion": "Remodelación de escaleras en el hogar"
+    },
+    "organizacionEnGuia": {
+      "categoria": "Servicios",
+      "subcategoria": "Construcción"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": "https://www.facebook.com/fabianperez1970"
+    },
+    "contacto": {
+      "telefonos": [],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Charlie Higgins",
+      "titulo": "Construcción",
+      "descripcion": ""
+    },
+    "organizacionEnGuia": {
+      "categoria": "Servicios",
+      "subcategoria": "Construcción"
+    },
+    "ubi": {
+      "direccion": "NE Portland",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [],
+      "email": "globodb@gmail.com"
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Agus Nails",
+      "titulo": "",
+      "descripcion": ""
+    },
+    "organizacionEnGuia": {
+      "categoria": "Cosmética",
+      "subcategoria": "Cosmética"
+    },
+    "ubi": {
+      "direccion": "1425 NE 7th Ave, Portland, OR",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "971-500-6121",
+          "extension": ""
+        }
+      ],
+      "email": ""
+    },
+    "urls": [
+      {
+        "descripcion": "Instagram",
+        "url": "https://www.instagram.com/agusnai1s"
+      }
+    ]
+  },
+  {
+    "general": {
+      "nombre": "Lic. Luz Belcastro",
+      "titulo": "Fonoaudiología",
+      "descripcion": "Fonoaudiología y estimulación del lenguaje."
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Fonoaudiología"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "054-11-54121416",
+          "extension": ""
+        }
+      ],
+      "email": "luzbelcastro@hotmail.com"
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Mariano Polinesi",
+      "titulo": "Fotografía",
+      "descripcion": ""
+    },
+    "organizacionEnGuia": {
+      "categoria": "Arte",
+      "subcategoria": "Fotografía"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": "https://www.flickr.com/people/emepolphoto/"
+    },
+    "contacto": {
+      "telefonos": [],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Clement",
+      "titulo": "Clases de francés online",
+      "descripcion": "Soy nativo francés y bilingüe español. Programa variado, divertido y preparado para cada alumno. 20 dólares la hora; primera clase de prueba gratis. Conversación, gramática, vocabulario de todos los días y profesional, etc."
+    },
+    "organizacionEnGuia": {
+      "categoria": "Idiomas",
+      "subcategoria": "Francés"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": "https://www.instagram.com/clementsilly/"
+    },
+    "contacto": {
+      "telefonos": [],
+      "email": "clementsilly@yahoo.fr"
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Alpha Auto Glass",
+      "titulo": "Mecánica",
+      "descripcion": ""
+    },
+    "organizacionEnGuia": {
+      "categoria": "Servicios",
+      "subcategoria": "Mecánica"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": "https://www.alphaautoglasspdx.com/"
+    },
+    "contacto": {
+      "telefonos": [],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Jorge Cara",
+      "titulo": "Mecánico",
+      "descripcion": ""
+    },
+    "organizacionEnGuia": {
+      "categoria": "Servicios",
+      "subcategoria": "Mecánica"
+    },
+    "ubi": {
+      "direccion": "Salem/Portland",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "503-884-8598",
+          "extension": ""
+        }
+      ],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Liliana Guevara",
+      "titulo": "Modista - trabajos de costurera",
+      "descripcion": "Confección de prendas a la medida; Dobladillos; Cambios de cierre; Aplicación de botones; Ajuste de prendas; Aplicación de elásticos; Reparaciones de ropa"
+    },
+    "organizacionEnGuia": {
+      "categoria": "Servicios",
+      "subcategoria": "Modista"
+    },
+    "ubi": {
+      "direccion": "North Portland",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "503-313-7505",
+          "extension": ""
+        }
+      ],
+      "email": "liliguev@hotmail.com"
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Tony Bruzzese",
+      "titulo": "Peluquería",
+      "descripcion": "National Beauty Salon"
+    },
+    "organizacionEnGuia": {
+      "categoria": "Peluquería",
+      "subcategoria": ""
+    },
+    "ubi": {
+      "direccion": "812 SW Washington St, Ste 300, Portland",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": "https://www.instagram.com/bruzzese.anthony/"
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "503-550-4230",
+          "extension": ""
+        }
+      ],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Ronald Pacheco, DC",
+      "titulo": "Quiropráctico",
+      "descripcion": "Accidentes de auto, indemnización laboral"
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Quiropráctico"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": "https://www.zuichiro.com/"
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "503-941-5465",
+          "extension": ""
+        }
+      ],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "El Dorado Art Studio by Virginia Marting",
+      "titulo": "Tattoo",
+      "descripcion": ""
+    },
+    "organizacionEnGuia": {
+      "categoria": "Arte",
+      "subcategoria": "Tattoo"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [],
+      "email": ""
+    },
+    "urls": [
+      {
+        "descripcion": "Sitio Web",
+        "url": "https://www.virginiamarting.com/"
+      }
+    ]
+  },
+  {
+    "general": {
+      "nombre": "Arbol de Vida - Sara C Csaky LPC",
+      "titulo": "Terapia presencial y online",
+      "descripcion": "Licensed professional Counselor C6776"
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Terapia"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "503-990-4385",
+          "extension": ""
+        }
+      ],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Geraldine Kuphal, LMFT",
+      "titulo": "Psicoterapia familiar",
+      "descripcion": "Licenciada en Oregon y Virginia en Psicoterapia familiar, especialista en Salud Mental Perinatal (embarazo y post-parto)"
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Terapia"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": "https://www.kuphalmft.com/"
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "+1 (503)310-8620",
+          "extension": ""
+        }
+      ],
+      "email": "geraldine.kuph@gmail.com"
+    },
+    "urls": [
+      {
+        "descripcion": "Sitio web",
+        "url": "https://www.kuphalmft.com"
+      }
+    ]
+  },
+  {
+    "general": {
+      "nombre": "M. Marcela Herrera",
+      "titulo": "Psicóloga",
+      "descripcion": "Psicóloga - matrícula profesional N 2028. Terapia modalidad virtual a distancia y presencial en Rosario, Sta Fe, Argentina. Posgrado en psicologia clinica en instituciones y comunidad. Atención de pacientes en consultorio desde 1994 en forma ininterrumpida. 30 años de experiencia hospitalaria. Integrante de equipos interdisciplinarios de salud mental en provincia de santa fe."
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Terapia"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "+54 9 341 562-5754",
+          "extension": ""
+        }
+      ],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Lic. Paula Mariani",
+      "titulo": "Terapia en línea",
+      "descripcion": ""
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Terapia"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": "https://www.instagram.com/terapiaenlineahoy/?hl=en"
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "1567970909",
+          "extension": ""
+        }
+      ],
+      "email": ""
+    },
+    "urls": [
+      {
+        "descripcion": "Instagram",
+        "url": "https://www.instagram.com/terapiaenlineahoy/?hl=en"
+      }
+    ]
+  },
+  {
+    "general": {
+      "nombre": "Magdalena Avila Echenique",
+      "titulo": "Professional counselor associate",
+      "descripcion": ""
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Terapia"
+    },
+    "ubi": {
+      "direccion": "16110 sw regatta Ln Beaverton, or 97006",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": "https://www.newmeaningscounseling.com/"
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "971-319-4194",
+          "extension": ""
+        }
+      ],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Lic. Ricardo Lagos",
+      "titulo": "",
+      "descripcion": "Atención adultos y jóvenes adultos. Bella vista - atención presencial y virtual."
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Terapia"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "1153250520",
+          "extension": ""
+        }
+      ],
+      "email": "lagospsicologo@gmail.com"
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Lic. Nicolas Picciuolo",
+      "titulo": "Terapia online",
+      "descripcion": ""
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Terapia"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [],
+      "email": ""
+    },
+    "urls": []
+  },
+  {
+    "general": {
+      "nombre": "Brenda Marcuzzi",
+      "titulo": "Psicóloga",
+      "descripcion": "Licenciada en psicología. Modalidad virtual y presencial. San Juan, capital"
+    },
+    "organizacionEnGuia": {
+      "categoria": "Salud",
+      "subcategoria": "Terapia"
+    },
+    "ubi": {
+      "direccion": "",
+      "horario": []
+    },
+    "etc": {
+      "urlImagen": ""
+    },
+    "contacto": {
+      "telefonos": [
+        {
+          "tipo": "Principal",
+          "numero": "+54 9 2646707235",
+          "extension": ""
+        }
+      ],
+      "email": "marcuzzibrenda@gmail.com"
+    },
+    "urls": []
+  }
   ]
 };

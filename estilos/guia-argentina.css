@@ -171,6 +171,7 @@ h4.detail-title{
 
 .contact-item{
     font-size: var(--font-size-sm);
+    margin-bottom: var(--spacing-md);
 }
 
 .contact-type{

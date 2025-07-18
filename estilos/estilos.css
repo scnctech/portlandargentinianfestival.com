@@ -584,7 +584,7 @@ select.form-control {
   --shadow-color: rgba(0, 0, 0, 0.1);
   
   /* Hero Colors */
-  --hero-primary: #ff6b6b;
+  --hero-primary: #006aff;
   --hero-secondary: #4ecdc4;
   --hero-accent: #45b7d1;
   --hero-gradient-start: #667eea;
@@ -1155,6 +1155,10 @@ table.timetable {
   color: var(--primary-color);
   text-decoration: underline;
   transition: var(--transition-fast);
+}
+
+.content-center {
+  text-align: center;
 }
 
 @media (min-width: 1100px){
