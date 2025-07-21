@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Past Festivals - Festival Portland 2025</title>
     <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/visor-de-imagenes.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -61,8 +62,12 @@
     <main>
         <div class="page-content">
             <h1>Past Festivals</h1>
-            <h2>2023 Exhibits</h2>
-            
+            <h2>2023</h2>
+            <div id="image-grid" class="image-grid"></div>
+            <div id="lightbox" class="lightbox" style="display:none;">
+                <span class="lightbox-close" id="lightbox-close">&times;</span>
+                <img class="lightbox-img" id="lightbox-img" src="" alt="Exhibit">
+            </div>
         </div>
     </main>
 
@@ -89,5 +94,6 @@
     </footer>
 
     <script src="scripts/app.js"></script>
+    <script src="scripts/visor-de-imagenes.js"></script>
 </body>
 </html>
