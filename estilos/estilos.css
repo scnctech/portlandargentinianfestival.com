@@ -1019,7 +1019,7 @@ main {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Carousel Sections */
+/* Carousel Sections
 .carousel-section {
   padding: var(--spacing-3xl) 0;
   background: white;
@@ -1080,8 +1080,72 @@ main {
 .vendor-logo:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
-  /* transform: translateY(-5px); */
-  /* box-shadow: 0 10px 20px var(--shadow-color); */
+} */
+
+.sponsors-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+.sponsors-section h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.sponsor-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsor-logo {
+    max-width: 160px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.vendors-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+}
+.vendors-section h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.vendors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.vendor-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vendor-logo {
+  max-width: 140px;
+  max-height: 90px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
 }
 
 table.timetable {
