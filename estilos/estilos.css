@@ -1128,6 +1128,8 @@ margin: 0 auto;
     height: auto;
     object-fit: contain;
     display: block;
+    border-radius: 1rem;
+    border: 1px solid black;
 }
 
 .vendors-section {
@@ -1172,6 +1174,8 @@ margin: 0 auto;
   height: auto;
   object-fit: contain;
   display: block;
+  border-radius: 1rem;
+  border: 1px solid black;
 }
 
 table.timetable {
