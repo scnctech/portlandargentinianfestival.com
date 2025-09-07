@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuentros Mensuales - Comunidad Argentina en Portland</title>
     <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="estilos/visor-de-imagenes.css">
     <meta name="description" content="Reuniones mensuales de la comunidad argentina en Portland, Oregon. Conoce fechas, lugares y cómo participar en los encuentros de argentinos en Portland.">
     <meta name="keywords" content="Encuentros argentinos Portland, comunidad argentina, reuniones mensuales, eventos argentinos, Portland Oregon">
     <meta name="author" content="Portland Argentinian Festival">
@@ -70,7 +71,11 @@
     <main>
         <div class="page-content">
             <h1>Encuentros Mensuales</h1>
-            
+            <div id="image-grid" class="image-grid"></div>
+            <div id="lightbox" class="lightbox" style="display:none;">
+                <span class="lightbox-close" id="lightbox-close">&times;</span>
+                <img class="lightbox-img" id="lightbox-img" src="" alt="Exhibit">
+            </div>
         </div>
     </main>
 
@@ -97,5 +102,7 @@
     </footer>
 
     <script src="scripts/app.js"></script>
+    <script src="scripts/lista-imagenes-encuentros.js"></script>
+    <script src="scripts/visor-de-imagenes.js"></script>
 </body>
 </html>
