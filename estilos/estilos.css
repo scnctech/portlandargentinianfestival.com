@@ -1759,3 +1759,24 @@ span.idioma-tag--spanish{
   border: 1px solid var(--hero-secondary);
   color: black;
 }
+
+ul.become-vendor-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 600px;
+}
+
+h2.become-vendor-h2 {
+  /* margin-bottom: var(--spacing-md); */
+  font-size: var(--font-size-2xl);
+  color: var(--secondary-color);
+  margin-top: var(--spacing-2xl);
+  margin-bottom: 0;
+}
+
+h3.become-vendor-h3 {
+  /* margin-bottom: var(--spacing-md); */
+  font-size: var(--font-size-1xl);
+  color: var(--secondary-color);
+}
