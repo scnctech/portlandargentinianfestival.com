@@ -1,5 +1,8 @@
 // JavaScript Variables for easy customization
 const CONFIG = {
+  // Footer year should stay current, independent of event-year branding.
+  festivalYear: new Date().getFullYear(),
+
   // Countdown target date
   countdownTarget: new Date('2027-10-16T12:00:00').getTime(),
   
@@ -30,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   // Initialize all functionality
+  initFooterYear();
   initMobileMenu();
   initCountdown();
   initCarousels();
@@ -109,6 +113,13 @@ function updateCountdown() {
 
 function padZero(num) {
   return num < 10 ? '0' + num : num.toString();
+}
+
+function initFooterYear() {
+  const footerYearNodes = document.querySelectorAll('.footer-year');
+  footerYearNodes.forEach(node => {
+    node.textContent = CONFIG.festivalYear;
+  });
 }
 
 // Carousel functionality
